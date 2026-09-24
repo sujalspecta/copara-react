@@ -15,8 +15,8 @@
     "lightgallery": "^2.9.0",
     "lucide-react": "^1.21.0",
     "preline": "^4.2.0",
-    "react": "^19.2.7",
-    "react-dom": "^19.2.7",
+    "react": "^19.3.0",
+    "react-dom": "^19.3.0",
     "react-router-dom": "^7.18.0",
     "swiper": "^14.2.0"
   },

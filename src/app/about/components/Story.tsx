@@ -12,6 +12,7 @@ const Story = () => {
   useEffect(() => {
     if (videoRef.current) {
       const lg = lightGallery(videoRef.current, {
+         licenseKey: 'GPLv3', 
         selector: 'this',
         plugins: [lgVideo],
         download: false,

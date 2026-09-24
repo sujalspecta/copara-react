@@ -32,9 +32,10 @@ const statsData: StatType[] = [
 const Services = () => {
   const videoRef = useRef<HTMLAnchorElement>(null)
 
-  useEffect(() => {
+   useEffect(() => {
     if (videoRef.current) {
       const lg = lightGallery(videoRef.current, {
+        licenseKey: 'GPLv3', 
         selector: 'this',
         plugins: [lgVideo],
         download: false,
