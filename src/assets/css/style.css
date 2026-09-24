@@ -1,0 +1,12 @@
+@import 'tailwindcss';
+@import 'preline/variants.css';
+@source "../../../node_modules/preline/dist/*.js";
+
+@import 'lightgallery/css/lightgallery-bundle.css';
+@import 'lightgallery/css/lg-video.css';
+
+@plugin "@tailwindcss/typography";
+@plugin "@tailwindcss/forms";
+
+@import './_config.css';
+@import './_general.css';
